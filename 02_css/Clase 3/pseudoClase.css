@@ -1,0 +1,74 @@
+/* unvisited link */
+a:link {
+  color:red;
+}
+
+/* mouse over link */
+a:hover {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+div {
+  background-color: red;
+  color: black;
+  height: 40px;
+  text-align: center;
+}
+
+div:hover {
+  background-color: lightblue;
+  text-align: right;
+}
+
+/* selecciona nro elemento */
+/* li:nth-child(1) {
+  background-color: green;
+}
+li:nth-child(4) {
+  background-color: green;
+} */
+
+/* selecciona par par */
+/* li:nth-child(2n) {
+  background: green;
+} */
+
+/* selecciona los impares */
+/* li:nth-child(2n+1) {
+  background: green;
+} */
+
+/* selecciona los de a cuatro impares */
+li:nth-child(4n) {
+  background: green;
+}
+
+
+/*
+p:nth-child(2) {
+  color: green;
+}*/
+
+/* selecciona todos los elementos que no son p */
+p {
+  color: red;
+}
+
+/* :not(p) {
+  color: blue;
+} */
+
+
+table {
+  width: 50%;
+  text-align: center;
+  color: black;
+  /* border: 1px solid; */
+  margin: auto;
+}
+
+tr:nth-child(2n) {
+  background-color: lightgray
+}
+

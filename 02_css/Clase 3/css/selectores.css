@@ -1,0 +1,55 @@
+* {
+    font-size: 16px;
+    color: black;
+}
+
+a {
+    color: blue;
+}
+
+.titulo {
+    color: rebeccapurple;
+}
+
+div a {
+    color: green;
+}
+
+div .importante {
+    color: red;
+}
+
+.presentacion .titulo {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin: .5rem;
+    padding: 1rem;
+}
+
+.presentacion .subtitulo {
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    margin: .5rem;
+    padding: 1rem; 
+}
+
+.cursos .titulo {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    margin: .5rem;
+    /* background-color: aliceblue;     */
+}
+
+.cursos .descripcion {
+    font-size: 1rem;
+    text-align: left;
+    margin: .5rem;
+    padding: 1rem; 
+    background-color: aliceblue;    
+    border-radius: 10px;
+}
