@@ -1,0 +1,27 @@
+p::first-line {
+    background-color: yellow;;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+h4::before {
+    content: "Hacer esto hoy: ";
+    background-color: lightcoral;
+}
+
+h5::after {
+    content: "  -  (Alicia en el país de las maravillas - 1912)";
+    font-style: italic;
+    font-size: .5rem;
+}
+
+::selection {
+    background-color: yellow;
+}
+
+.texto::first-letter {
+    font-size: 2rem;
+    background-color: lightcoral;
+}

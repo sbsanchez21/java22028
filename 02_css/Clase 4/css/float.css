@@ -1,0 +1,17 @@
+.foto {
+    width:150px;
+    height:150px;
+    /* float: none; */
+    /* float: left; */
+    /* float: right; */
+    float: inline-start;
+    /* float: inline-end; */
+}
+
+p input {
+    background-color: lightblue;
+}
+
+div > p {
+    background-color: lightcoral;
+}
