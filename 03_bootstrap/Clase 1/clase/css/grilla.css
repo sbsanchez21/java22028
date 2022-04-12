@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+.texto {
+    background-color: lightgray;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 5px;
+    /* margin: .5rem; */
+}
