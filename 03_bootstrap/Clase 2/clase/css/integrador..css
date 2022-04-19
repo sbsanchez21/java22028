@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    font-size: 14px;
+}
+
+.card {
+    width: 22rem;
+    border: 1.3px solid lightgray;
+}
+
+.card a {
+    /* padding-top: 0;
+    padding-bottom: 0; */
+    font-size: .7rem;
+    font-weight: bold;
+    
+}
