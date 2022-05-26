@@ -1,0 +1,33 @@
+- not null, null
+ALTER TABLE alumnos 
+MODIFY email varchar(30) null
+
+- concepto clave primaria: PRIMARY KEY
+Toda tabla debe tener como PRIMARY KEY su id, para que no se repita, además crea un índice
+	ALTER TABLE alumnos ADD PRIMARY KEY(idAlumno)
+	
+- concepto autoincrement
+CREATE TABLE Persons (
+    Personid int NOT NULL AUTO_INCREMENT,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    PRIMARY KEY (Personid)
+);
+
+- Índice: agiliza las búsquedas realizadas por un campo
+- índices duplicados: campos pueden tener los mismos valores
+- índices únicos: campos que no pueden estar duplicados
+- indice duplicado
+CREATE INDEX idx_nombre ON alumnos(nombre)
+CREATE INDEX idx_dni ON alumnos(dni)	
+ALTER TABLE `alumnos` ADD INDEX(`email`);
+- índice único	
+CREATE UNIQUE INDEX idx_email
+ON alumnos (email);
+
+
+SELECT * FROM `alumnos` WHERE (telefono=1155553336 OR usuario="1155553336") AND password=111
+
+
+SELECT * FROM `alumnos` WHERE nombre LIKE "fe%" ORDER BY id
